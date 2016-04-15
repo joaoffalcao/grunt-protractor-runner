@@ -79,12 +79,12 @@ module.exports = function(grunt) {
 
     //Add command line params support
     var commandParams = grunt.option.flags();
-    commandParams.forEach(function(a){
-      if (a.indexOf('--params') ==0){
+    commandParams.forEach( function (a){
+      if (a.indexOf('--params') === 0){
         args.push(a);
       }
     });
-    
+
     // Convert [object] to --[object].key1 val1 --[object].key2 val2 ....
     objectArgs.forEach(function(a) {
       (function convert(prefix, obj, args) {
