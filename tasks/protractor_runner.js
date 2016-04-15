@@ -79,7 +79,7 @@ module.exports = function(grunt) {
 
     //Add command line params support
     var commandParams = grunt.option.flags();
-    commandParams.forEach( function (a){
+    commandParams.forEach(function (a){
       if (a.indexOf('--params') === 0){
         args.push(a);
       }
