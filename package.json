@@ -7,7 +7,7 @@
     "name": "Teerapap Changwichukarn",
     "email": "teerapap.c@gmail.com"
   },
-  "license" : "MIT",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/teerapap/grunt-protractor-runner.git"
@@ -28,13 +28,11 @@
     "through2": "~2.0.0"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.11.3",
+    "grunt": "~0.4.1",
+    "grunt-cli": "^0.1.13",
     "grunt-contrib-clean": "~0.7.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
-    "grunt": "~0.4.1"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt-contrib-jshint": "~0.11.3",
+    "grunt-contrib-nodeunit": "~0.4.1"
   },
   "keywords": [
     "gruntplugin",
